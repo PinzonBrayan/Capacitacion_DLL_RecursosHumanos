@@ -3,27 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|c:\\users\\pinzo\\onedrive\\desktop\\universidad\\8vo semestre\\analisis de sistema 2\\capacitacion dll\\prototiporrhh2k26\\capamodelo_rrhh\\repositorios\\repositorioempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6B4427F-D1E2-4A69-AD96-A767FCCEB3BB}|CapaControlador_RRHH\\CapaControlador_RRHH.csproj|c:\\users\\pinzo\\onedrive\\desktop\\universidad\\8vo semestre\\analisis de sistema 2\\capacitacion dll\\prototiporrhh2k26\\capacontrolador_rrhh\\modeloempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6B4427F-D1E2-4A69-AD96-A767FCCEB3BB}|CapaControlador_RRHH\\CapaControlador_RRHH.csproj|solutionrelative:capacontrolador_rrhh\\modeloempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6B4427F-D1E2-4A69-AD96-A767FCCEB3BB}|CapaControlador_RRHH\\CapaControlador_RRHH.csproj|C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\capacontrolador_rrhh\\estadoentidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6B4427F-D1E2-4A69-AD96-A767FCCEB3BB}|CapaControlador_RRHH\\CapaControlador_RRHH.csproj|solutionrelative:capacontrolador_rrhh\\estadoentidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\capamodelo_rrhh\\repositorios\\repositorioempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|solutionrelative:capamodelo_rrhh\\repositorios\\repositorioempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|c:\\users\\pinzo\\onedrive\\desktop\\universidad\\8vo semestre\\analisis de sistema 2\\capacitacion dll\\prototiporrhh2k26\\capamodelo_rrhh\\repositorios\\repositoriomaestro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\capamodelo_rrhh\\repositorios\\repositoriomaestro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|solutionrelative:capamodelo_rrhh\\repositorios\\repositoriomaestro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|c:\\users\\pinzo\\onedrive\\desktop\\universidad\\8vo semestre\\analisis de sistema 2\\capacitacion dll\\prototiporrhh2k26\\capamodelo_rrhh\\contratos\\irepositoriogenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\capamodelo_rrhh\\contratos\\irepositoriogenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|solutionrelative:capamodelo_rrhh\\contratos\\irepositoriogenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|c:\\users\\pinzo\\onedrive\\desktop\\universidad\\8vo semestre\\analisis de sistema 2\\capacitacion dll\\prototiporrhh2k26\\capamodelo_rrhh\\contratos\\irepositorioempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\capamodelo_rrhh\\contratos\\irepositorioempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|solutionrelative:capamodelo_rrhh\\contratos\\irepositorioempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|c:\\users\\pinzo\\onedrive\\desktop\\universidad\\8vo semestre\\analisis de sistema 2\\capacitacion dll\\prototiporrhh2k26\\capamodelo_rrhh\\entidades\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\capamodelo_rrhh\\entidades\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|solutionrelative:capamodelo_rrhh\\entidades\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|c:\\users\\pinzo\\onedrive\\desktop\\universidad\\8vo semestre\\analisis de sistema 2\\capacitacion dll\\prototiporrhh2k26\\capamodelo_rrhh\\repositorios\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\capamodelo_rrhh\\repositorios\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D29138-F9D0-4475-BD70-23CFD1F49183}|CapaModelo_RRHH\\CapaModelo_RRHH.csproj|solutionrelative:capamodelo_rrhh\\repositorios\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,11 +42,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "ModeloEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\CapaControlador_RRHH\\ModeloEmpleado.cs",
+              "RelativeDocumentMoniker": "CapaControlador_RRHH\\ModeloEmpleado.cs",
+              "ToolTip": "C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\CapaControlador_RRHH\\ModeloEmpleado.cs",
+              "RelativeToolTip": "CapaControlador_RRHH\\ModeloEmpleado.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAuwKcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T04:40:54.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EstadoEntidad.cs",
+              "DocumentMoniker": "C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\CapaControlador_RRHH\\EstadoEntidad.cs",
+              "RelativeDocumentMoniker": "CapaControlador_RRHH\\EstadoEntidad.cs",
+              "ToolTip": "C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\CapaControlador_RRHH\\EstadoEntidad.cs",
+              "RelativeToolTip": "CapaControlador_RRHH\\EstadoEntidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T04:39:18.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\CapaModelo_RRHH\\Entidades\\Empleado.cs",
               "RelativeDocumentMoniker": "CapaModelo_RRHH\\Entidades\\Empleado.cs",
@@ -46,12 +79,11 @@
               "RelativeToolTip": "CapaModelo_RRHH\\Entidades\\Empleado.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T23:17:07.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T23:17:07.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IRepositorioEmpleados.cs",
               "DocumentMoniker": "C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\CapaModelo_RRHH\\Contratos\\IRepositorioEmpleados.cs",
               "RelativeDocumentMoniker": "CapaModelo_RRHH\\Contratos\\IRepositorioEmpleados.cs",
@@ -59,12 +91,11 @@
               "RelativeToolTip": "CapaModelo_RRHH\\Contratos\\IRepositorioEmpleados.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T23:12:10.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T23:12:10.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IRepositorioGenerico.cs",
               "DocumentMoniker": "C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\CapaModelo_RRHH\\Contratos\\IRepositorioGenerico.cs",
               "RelativeDocumentMoniker": "CapaModelo_RRHH\\Contratos\\IRepositorioGenerico.cs",
@@ -72,12 +103,11 @@
               "RelativeToolTip": "CapaModelo_RRHH\\Contratos\\IRepositorioGenerico.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T23:06:58.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T23:06:58.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RepositorioEmpleado.cs",
               "DocumentMoniker": "C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\CapaModelo_RRHH\\Repositorios\\RepositorioEmpleado.cs",
               "RelativeDocumentMoniker": "CapaModelo_RRHH\\Repositorios\\RepositorioEmpleado.cs",
@@ -85,12 +115,11 @@
               "RelativeToolTip": "CapaModelo_RRHH\\Repositorios\\RepositorioEmpleado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T23:04:48.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T23:04:48.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RepositorioMaestro.cs",
               "DocumentMoniker": "C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\CapaModelo_RRHH\\Repositorios\\RepositorioMaestro.cs",
               "RelativeDocumentMoniker": "CapaModelo_RRHH\\Repositorios\\RepositorioMaestro.cs",
@@ -98,12 +127,11 @@
               "RelativeToolTip": "CapaModelo_RRHH\\Repositorios\\RepositorioMaestro.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAuwDEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T22:42:46.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T22:42:46.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Repositorio.cs",
               "DocumentMoniker": "C:\\Users\\pinzo\\OneDrive\\Desktop\\Universidad\\8vo semestre\\Analisis de sistema 2\\Capacitacion DLL\\PrototipoRRHH2K26\\CapaModelo_RRHH\\Repositorios\\Repositorio.cs",
               "RelativeDocumentMoniker": "CapaModelo_RRHH\\Repositorios\\Repositorio.cs",
@@ -111,8 +139,7 @@
               "RelativeToolTip": "CapaModelo_RRHH\\Repositorios\\Repositorio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T22:34:20.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T22:34:20.975Z"
             }
           ]
         }

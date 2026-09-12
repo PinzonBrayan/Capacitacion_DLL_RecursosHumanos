@@ -7,3 +7,4 @@ C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\C
 C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaControlador_RRHH\bin\Debug\CapaModelo_RRHH.dll
 C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaControlador_RRHH\bin\Debug\CapaModelo_RRHH.pdb
 C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaControlador_RRHH\obj\Debug\CapaCont.7CB1B265.Up2Date
+C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaControlador_RRHH\bin\Debug\System.ComponentModel.Annotations.dll
