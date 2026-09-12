@@ -1,0 +1,9 @@
+C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaVista_RRHH\bin\Debug\CapaVista_RRHH.dll
+C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaVista_RRHH\bin\Debug\CapaVista_RRHH.pdb
+C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaVista_RRHH\obj\Debug\CapaVista_RRHH.csproj.AssemblyReference.cache
+C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaVista_RRHH\obj\Debug\CapaVista_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaVista_RRHH\obj\Debug\CapaVista_RRHH.dll
+C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaVista_RRHH\obj\Debug\CapaVista_RRHH.pdb
+C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaVista_RRHH\bin\Debug\CapaControlador_RRHH.dll
+C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaVista_RRHH\bin\Debug\CapaControlador_RRHH.pdb
+C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaVista_RRHH\obj\Debug\CapaVist.998C3C6F.Up2Date
