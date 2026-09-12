@@ -1,6 +1,0 @@
-C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaModelo_RRHH\bin\Debug\CapaModelo_RRHH.dll
-C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaModelo_RRHH\bin\Debug\CapaModelo_RRHH.pdb
-C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaModelo_RRHH\obj\Debug\CapaModelo_RRHH.csproj.AssemblyReference.cache
-C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaModelo_RRHH\obj\Debug\CapaModelo_RRHH.csproj.CoreCompileInputs.cache
-C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaModelo_RRHH\obj\Debug\CapaModelo_RRHH.dll
-C:\Users\pinzo\OneDrive\Desktop\Universidad\8vo semestre\Analisis de sistema 2\Capacitacion DLL\PrototipoRRHH2K26\CapaModelo_RRHH\obj\Debug\CapaModelo_RRHH.pdb

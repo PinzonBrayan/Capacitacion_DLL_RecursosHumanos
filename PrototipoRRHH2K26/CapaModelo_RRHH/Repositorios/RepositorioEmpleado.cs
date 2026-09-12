@@ -1,19 +1,13 @@
 ﻿using CapaModelo_RRHH.Contratos;
+using CapaModelo_RRHH.Entidades;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CapaModelo_RRHH.Entidades;
-using System.Data.Odbc;
-using System.Runtime.Remoting.Lifetime;
 using System.Data;
+using System.Data.Odbc;
+
 namespace CapaModelo_RRHH.Repositorios
-    
 {
-
-
-public class RepositorioEmpleado: RepositorioMaestro,IRepositorioEmpleados
+    public class RepositorioEmpleado : RepositorioMaestro, IRepositorioEmpleados
     {
         private string selectAll;
         private string insert;
@@ -23,64 +17,95 @@ public class RepositorioEmpleado: RepositorioMaestro,IRepositorioEmpleados
         public RepositorioEmpleado()
         {
             selectAll = "SELECT * FROM Tbl_Empleado";
-            insert = "INSRT INTO Tbl_Empleado value (NULL, ?,?,?,?,?,?)";
-            update = "UPDATE Tbl_Empleado SET NombresEmpleado=?, ApellidosEmpleado = ?, TelefonoEmpleado=?, CorreoEmpleado=?, PuestoEmpleado=?,EstadoEmpleado=? WHERE IdEmpleado = ?";
-            delete = "DELETE FROM Tbl:Empleado WHERE IdEmpleado 0 ?";
+
+            insert = @"INSERT INTO Tbl_Empleado
+                        (
+                            NombresEmpleado,
+                            ApellidosEmpleado,
+                            TelefonoEmpleado,
+                            CorreoEmpleado,
+                            PuestoEmpleado,
+                            EstadoEmpleado
+                        )
+                        VALUES
+                        (
+                            ?,?,?,?,?,?
+                        )";
+
+            update = @"UPDATE Tbl_Empleado
+                       SET
+                            NombresEmpleado = ?,
+                            ApellidosEmpleado = ?,
+                            TelefonoEmpleado = ?,
+                            CorreoEmpleado = ?,
+                            PuestoEmpleado = ?,
+                            EstadoEmpleado = ?
+                       WHERE IdEmpleado = ?";
+
+            delete = "DELETE FROM Tbl_Empleado WHERE IdEmpleado = ?";
         }
 
-        public int Agregar (Empleado entidad)
+        public int Agregar(Empleado entidad)
         {
-            var _parametros = new List<OdbcParameter>();
-            _parametros.Add(new OdbcParameter("P_NombresEmpleado", entidad.NombresEmpleado));
-            _parametros.Add(new OdbcParameter("P_ApellidosEmpleado", entidad.ApellidosEmpleado));
-            _parametros.Add(new OdbcParameter("P_TelefonoEmpleado", entidad.TelefonoEmpleado));
-            _parametros.Add(new OdbcParameter("P_CorreoEmpleado", entidad.CorreoEmpleado));
-            _parametros.Add(new OdbcParameter("P_PuestoEmpleado", entidad.PuestoEmpleado));
-            _parametros.Add(new OdbcParameter("P_EstadoEmpleado", entidad.EstadoEmpleado));
-            return EjecucionNonQuery(insert, _parametros, CommandType.Text);
+            var parametros = new List<OdbcParameter>();
+
+            parametros.Add(new OdbcParameter("P_NombresEmpleado", entidad.NombresEmpleado));
+            parametros.Add(new OdbcParameter("P_ApellidosEmpleado", entidad.ApellidosEmpleado));
+            parametros.Add(new OdbcParameter("P_TelefonoEmpleado", entidad.TelefonoEmpleado));
+            parametros.Add(new OdbcParameter("P_CorreoEmpleado", entidad.CorreoEmpleado));
+            parametros.Add(new OdbcParameter("P_PuestoEmpleado", entidad.PuestoEmpleado));
+            parametros.Add(new OdbcParameter("P_EstadoEmpleado", entidad.EstadoEmpleado));
+
+            return EjecucionNonQuery(insert, parametros, CommandType.Text);
         }
 
         public int Editar(Empleado entidad)
         {
-            var _parametros = new List<OdbcParameter>();
-            _parametros.Add(new OdbcParameter("P_IdEmpleado", entidad.IdEmpleado));
-            _parametros.Add(new OdbcParameter("P_NombresEmpleado", entidad.NombresEmpleado));
-            _parametros.Add(new OdbcParameter("P_ApellidosEmpleado", entidad.ApellidosEmpleado));
-            _parametros.Add(new OdbcParameter("P_TelefonoEmpleado", entidad.TelefonoEmpleado));
-            _parametros.Add(new OdbcParameter("P_CorreoEmpleado", entidad.CorreoEmpleado));
-            _parametros.Add(new OdbcParameter("P_PuestoEmpleado", entidad.PuestoEmpleado));
-            _parametros.Add(new OdbcParameter("P_EstadoEmpleado", entidad.EstadoEmpleado));
-            return EjecucionNonQuery(update, _parametros, CommandType.Text);
+            var parametros = new List<OdbcParameter>();
 
+            // El orden debe ser igual al UPDATE
+            parametros.Add(new OdbcParameter("P_NombresEmpleado", entidad.NombresEmpleado));
+            parametros.Add(new OdbcParameter("P_ApellidosEmpleado", entidad.ApellidosEmpleado));
+            parametros.Add(new OdbcParameter("P_TelefonoEmpleado", entidad.TelefonoEmpleado));
+            parametros.Add(new OdbcParameter("P_CorreoEmpleado", entidad.CorreoEmpleado));
+            parametros.Add(new OdbcParameter("P_PuestoEmpleado", entidad.PuestoEmpleado));
+            parametros.Add(new OdbcParameter("P_EstadoEmpleado", entidad.EstadoEmpleado));
+            parametros.Add(new OdbcParameter("P_IdEmpleado", entidad.IdEmpleado));
+
+            return EjecucionNonQuery(update, parametros, CommandType.Text);
         }
 
-        public int Remover (Empleado entidad)
+        public int Remover(Empleado entidad)
         {
-            var _parametros = new List<OdbcParameter>();
-        _parametros.Add(new OdbcParameter("P_IdEmpleado", entidad.IdEmpleado));
-        return EjecucionNonQuery(delete, _parametros, CommandType.Text);        
-    }
+            var parametros = new List<OdbcParameter>();
+
+            parametros.Add(new OdbcParameter("P_IdEmpleado", entidad.IdEmpleado));
+
+            return EjecucionNonQuery(delete, parametros, CommandType.Text);
+        }
 
         public IEnumerable<Empleado> GetAll()
-    {
-        var lstEmpleado = new List<Empleado>();
-        var tblTabla = EjecucionConsulta(selectAll,null,CommandType.Text);
-        foreach (DataRow row in tblTabla.Rows)
         {
-            var empleado = new Empleado();
-            empleado.IdEmpleado = Convert.ToInt32(row[0]);
-            empleado.NombresEmpleado = row[1].ToString();
-            empleado.ApellidosEmpleado = row[2].ToString();
-            empleado.TelefonoEmpleado = row[3].ToString();
-            empleado.CorreoEmpleado = row[4].ToString();
-            empleado.PuestoEmpleado = row[5].ToString();
-            empleado.PuestoEmpleado = row[6].ToString();
-            lstEmpleado.Add(empleado);
+            var listaEmpleado = new List<Empleado>();
+
+            var tabla = EjecucionConsulta(selectAll, null, CommandType.Text);
+
+            foreach (DataRow row in tabla.Rows)
+            {
+                var empleado = new Empleado();
+
+                empleado.IdEmpleado = Convert.ToInt32(row["IdEmpleado"]);
+                empleado.NombresEmpleado = row["NombresEmpleado"].ToString();
+                empleado.ApellidosEmpleado = row["ApellidosEmpleado"].ToString();
+                empleado.TelefonoEmpleado = row["TelefonoEmpleado"].ToString();
+                empleado.CorreoEmpleado = row["CorreoEmpleado"].ToString();
+                empleado.PuestoEmpleado = row["PuestoEmpleado"].ToString();
+                empleado.EstadoEmpleado = Convert.ToBoolean(row["EstadoEmpleado"]);
+
+                listaEmpleado.Add(empleado);
+            }
+
+            return listaEmpleado;
         }
-        tblTabla.Clear();
-        tblTabla = null;
-        return lstEmpleado;
     }
-    
-}
 }
