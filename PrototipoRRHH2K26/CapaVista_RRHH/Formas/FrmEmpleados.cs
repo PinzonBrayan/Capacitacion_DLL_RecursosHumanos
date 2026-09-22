@@ -143,5 +143,10 @@ namespace CapaVista_RRHH.Formas
             FrmEmpleadosReporte reporte = new FrmEmpleadosReporte();
             reporte.ShowDialog();
         }
+
+        private void btnAyuda_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "C:/AyudaRisko/CapacitacionAyuda.chm", "Vehiculo.html");
+        }
     } 
 }

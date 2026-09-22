@@ -1,0 +1,7 @@
+* b6d9de5 Agregando los reportes
+* 05b5ded Agregando capa vista
+* 7c08488 Dejar de rastrear archivos temporales de Visual Studio
+* 9872f28 Agregar gitignore para Visual Studio
+* b08847b Agregando capa controlador
+* d748ea7 Agregando capa modelo
+* 610d424 Carga inicial del proyecto

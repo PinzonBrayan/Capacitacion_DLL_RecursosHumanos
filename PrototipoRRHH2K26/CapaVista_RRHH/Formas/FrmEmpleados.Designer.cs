@@ -262,6 +262,7 @@ namespace CapaVista_RRHH.Formas
             this.btnAyuda.TabIndex = 5;
             this.btnAyuda.Text = "Ayuda";
             this.btnAyuda.UseVisualStyleBackColor = false;
+            this.btnAyuda.Click += new System.EventHandler(this.btnAyuda_Click);
             // 
             // btnImprimir
             // 
