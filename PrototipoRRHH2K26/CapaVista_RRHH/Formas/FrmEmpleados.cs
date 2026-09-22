@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using CapaControlador_RRHH;
 using CapaModelo_RRHH.Entidades;
 using CapaVista_RRHH.Ayudas;
+using CapaVista_RRHH.Reportes;
 
 namespace CapaVista_RRHH.Formas
 {
@@ -135,6 +136,12 @@ namespace CapaVista_RRHH.Formas
 
             }
             else MessageBox.Show("Seleccione una fila");
+        }
+
+        private void btnImprimir_Click(object sender, EventArgs e)
+        {
+            FrmEmpleadosReporte reporte = new FrmEmpleadosReporte();
+            reporte.ShowDialog();
         }
     } 
 }

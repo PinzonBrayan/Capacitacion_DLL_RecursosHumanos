@@ -1,0 +1,6 @@
+* 05b5ded (HEAD -> main, origin/main, origin/Capa_Vista, Capa_Vista) Agregando capa vista
+* 7c08488 (origin/Capa_Controlador, Capa_Controlador) Dejar de rastrear archivos temporales de Visual Studio
+* 9872f28 Agregar gitignore para Visual Studio
+* b08847b Agregando capa controlador
+* d748ea7 (origin/capa_modelo, capa_modelo) Agregando capa modelo
+* 610d424 Carga inicial del proyecto

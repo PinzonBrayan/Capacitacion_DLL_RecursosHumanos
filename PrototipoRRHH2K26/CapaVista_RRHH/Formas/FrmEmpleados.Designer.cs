@@ -115,7 +115,6 @@ namespace CapaVista_RRHH.Formas
             this.panIngresoDatos.Size = new System.Drawing.Size(316, 633);
             this.panIngresoDatos.TabIndex = 3;
             this.panIngresoDatos.TabStop = false;
-           
             // 
             // btnGrabar
             // 
@@ -146,7 +145,6 @@ namespace CapaVista_RRHH.Formas
             this.label6.Size = new System.Drawing.Size(50, 16);
             this.label6.TabIndex = 12;
             this.label6.Text = "Estado";
-            
             // 
             // txtPuesto
             // 
@@ -154,7 +152,6 @@ namespace CapaVista_RRHH.Formas
             this.txtPuesto.Name = "txtPuesto";
             this.txtPuesto.Size = new System.Drawing.Size(277, 22);
             this.txtPuesto.TabIndex = 11;
-           
             // 
             // Puesto
             // 
@@ -164,7 +161,6 @@ namespace CapaVista_RRHH.Formas
             this.Puesto.Size = new System.Drawing.Size(49, 16);
             this.Puesto.TabIndex = 10;
             this.Puesto.Text = "Puesto";
-            
             // 
             // txtCorreo
             // 
@@ -172,7 +168,6 @@ namespace CapaVista_RRHH.Formas
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(277, 22);
             this.txtCorreo.TabIndex = 9;
-            
             // 
             // label5
             // 
@@ -182,7 +177,6 @@ namespace CapaVista_RRHH.Formas
             this.label5.Size = new System.Drawing.Size(48, 16);
             this.label5.TabIndex = 8;
             this.label5.Text = "Correo";
-            
             // 
             // txtTelefono
             // 
@@ -190,7 +184,7 @@ namespace CapaVista_RRHH.Formas
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(277, 22);
             this.txtTelefono.TabIndex = 7;
-            
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -199,7 +193,6 @@ namespace CapaVista_RRHH.Formas
             this.label4.Size = new System.Drawing.Size(61, 16);
             this.label4.TabIndex = 6;
             this.label4.Text = "Telefono";
-            
             // 
             // txtApellidos
             // 
@@ -207,7 +200,6 @@ namespace CapaVista_RRHH.Formas
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.Size = new System.Drawing.Size(277, 22);
             this.txtApellidos.TabIndex = 5;
-            
             // 
             // label3
             // 
@@ -217,7 +209,6 @@ namespace CapaVista_RRHH.Formas
             this.label3.Size = new System.Drawing.Size(64, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Apellidos";
-  
             // 
             // txtNombres
             // 
@@ -225,7 +216,6 @@ namespace CapaVista_RRHH.Formas
             this.txtNombres.Name = "txtNombres";
             this.txtNombres.Size = new System.Drawing.Size(277, 22);
             this.txtNombres.TabIndex = 3;
-  
             // 
             // label2
             // 
@@ -235,7 +225,6 @@ namespace CapaVista_RRHH.Formas
             this.label2.Size = new System.Drawing.Size(63, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nombres";
-
             // 
             // txtIdEmpleado
             // 
@@ -283,6 +272,7 @@ namespace CapaVista_RRHH.Formas
             this.btnImprimir.TabIndex = 6;
             this.btnImprimir.Text = "Imprimir";
             this.btnImprimir.UseVisualStyleBackColor = false;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
             // 
             // btnNuevo
             // 
